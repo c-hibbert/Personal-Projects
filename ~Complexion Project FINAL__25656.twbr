@@ -1,0 +1,1585 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0514.2217                               -->
+<workbook original-version='18.1' source-build='2025.2.0 (20252.25.0514.2217)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <Extensions />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <_.fcp.VizExtensions.true...VizExtensions />
+    <_.fcp.VizExtensionsDupEncodingUUID.true...VizExtensionsDupEncodingUUID />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='ALL DATA (Complexion Project Data)' inline='true' name='federated.04ppm3c1bg1kcf0zojhjn0bek5fk' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Complexion Project Data' name='excel-direct.0wf0wxg0vdzi6x1gbtf6t0gsbz10'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Chai/Documents/GitHub/Personal-Projects/Complexion Project Data.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0wf0wxg0vdzi6x1gbtf6t0gsbz10' name='ALL DATA' table='[&apos;ALL DATA$&apos;]' type='table'>
+          <columns gridOrigin='A1:N114:no:A1:N114:0' header='yes' outcome='2'>
+            <column datatype='string' name='Product Name' ordinal='0' />
+            <column datatype='string' name='Product Type' ordinal='1' />
+            <column datatype='string' name='Brand' ordinal='2' />
+            <column datatype='real' name='Price' ordinal='3' />
+            <column datatype='integer' name='# of Shades in Line' ordinal='4' />
+            <column datatype='string' name='Darkest Shade Name' ordinal='5' />
+            <column datatype='string' name='Coverage' ordinal='6' />
+            <column datatype='string' name='Finish' ordinal='7' />
+            <column datatype='string' name='Type' ordinal='8' />
+            <column datatype='string' name='Black-Owned?' ordinal='9' />
+            <column datatype='string' name='Celebrity/Influencer Brand?' ordinal='10' />
+            <column datatype='string' name='Clean?' ordinal='11' />
+            <column datatype='string' name='Link' ordinal='12' />
+            <column datatype='string' name='Photo' ordinal='13' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[ALL DATA]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:N114:no:A1:N114:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Product Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Product Name]</local-name>
+            <parent-name>[ALL DATA]</parent-name>
+            <remote-alias>Product Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ALL DATA_EB3B684ED3824F828A6F4D0C0870262C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Product Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Product Type]</local-name>
+            <parent-name>[ALL DATA]</parent-name>
+            <remote-alias>Product Type</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ALL DATA_EB3B684ED3824F828A6F4D0C0870262C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Brand</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Brand]</local-name>
+            <parent-name>[ALL DATA]</parent-name>
+            <remote-alias>Brand</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ALL DATA_EB3B684ED3824F828A6F4D0C0870262C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Price</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Price]</local-name>
+            <parent-name>[ALL DATA]</parent-name>
+            <remote-alias>Price</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[ALL DATA_EB3B684ED3824F828A6F4D0C0870262C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name># of Shades in Line</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[# of Shades in Line]</local-name>
+            <parent-name>[ALL DATA]</parent-name>
+            <remote-alias># of Shades in Line</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ALL DATA_EB3B684ED3824F828A6F4D0C0870262C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Darkest Shade Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Darkest Shade Name]</local-name>
+            <parent-name>[ALL DATA]</parent-name>
+            <remote-alias>Darkest Shade Name</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ALL DATA_EB3B684ED3824F828A6F4D0C0870262C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Coverage</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Coverage]</local-name>
+            <parent-name>[ALL DATA]</parent-name>
+            <remote-alias>Coverage</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ALL DATA_EB3B684ED3824F828A6F4D0C0870262C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Finish</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Finish]</local-name>
+            <parent-name>[ALL DATA]</parent-name>
+            <remote-alias>Finish</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ALL DATA_EB3B684ED3824F828A6F4D0C0870262C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Type]</local-name>
+            <parent-name>[ALL DATA]</parent-name>
+            <remote-alias>Type</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ALL DATA_EB3B684ED3824F828A6F4D0C0870262C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Black-Owned?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Black-Owned?]</local-name>
+            <parent-name>[ALL DATA]</parent-name>
+            <remote-alias>Black-Owned?</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ALL DATA_EB3B684ED3824F828A6F4D0C0870262C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Celebrity/Influencer Brand?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Celebrity/Influencer Brand?]</local-name>
+            <parent-name>[ALL DATA]</parent-name>
+            <remote-alias>Celebrity/Influencer Brand?</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ALL DATA_EB3B684ED3824F828A6F4D0C0870262C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Clean?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Clean?]</local-name>
+            <parent-name>[ALL DATA]</parent-name>
+            <remote-alias>Clean?</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ALL DATA_EB3B684ED3824F828A6F4D0C0870262C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Link</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Link]</local-name>
+            <parent-name>[ALL DATA]</parent-name>
+            <remote-alias>Link</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ALL DATA_EB3B684ED3824F828A6F4D0C0870262C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Photo</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Photo]</local-name>
+            <parent-name>[ALL DATA]</parent-name>
+            <remote-alias>Photo</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ALL DATA_EB3B684ED3824F828A6F4D0C0870262C]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Black-Owned?]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Photo]' role='dimension' semantic-role='[URL]' type='nominal' />
+      <column datatype='string' name='[Product Name]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Product Type]' role='dimension' type='nominal' />
+      <column caption='ALL DATA' datatype='table' name='[__tableau_internal_object_id__].[ALL DATA_EB3B684ED3824F828A6F4D0C0870262C]' role='measure' type='quantitative' />
+      <column-instance column='[Black-Owned?]' derivation='None' name='[none:Black-Owned?:nk]' pivot='key' type='nominal' />
+      <group caption='Action (Black-Owned?,Product Name)' hidden='true' name='[Action (Black-Owned?,Product Name)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Black-Owned?]' />
+          <groupfilter function='level-members' level='[Product Name]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Photo)' hidden='true' name='[Action (Photo)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Photo]' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Chai/AppData/Local/Temp/TableauTemp/#TableauTemp_19dikpt018exml1c68xi801rcmby.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='09/10/2025 07:54:01 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Product Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Product Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Product Name</remote-alias>
+              <ordinal>0</ordinal>
+              <family>ALL DATA</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>113</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[ALL DATA_EB3B684ED3824F828A6F4D0C0870262C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Brand</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Brand]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Brand</remote-alias>
+              <ordinal>1</ordinal>
+              <family>ALL DATA</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>68</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[ALL DATA_EB3B684ED3824F828A6F4D0C0870262C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Price</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Price]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Price</remote-alias>
+              <ordinal>2</ordinal>
+              <family>ALL DATA</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>46</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ALL DATA_EB3B684ED3824F828A6F4D0C0870262C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name># of Shades in Line</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[# of Shades in Line]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias># of Shades in Line</remote-alias>
+              <ordinal>3</ordinal>
+              <family>ALL DATA</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>38</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ALL DATA_EB3B684ED3824F828A6F4D0C0870262C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Darkest Shade Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Darkest Shade Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Darkest Shade Name</remote-alias>
+              <ordinal>4</ordinal>
+              <family>ALL DATA</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>102</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[ALL DATA_EB3B684ED3824F828A6F4D0C0870262C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Coverage</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Coverage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Coverage</remote-alias>
+              <ordinal>5</ordinal>
+              <family>ALL DATA</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[ALL DATA_EB3B684ED3824F828A6F4D0C0870262C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Finish</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Finish]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Finish</remote-alias>
+              <ordinal>6</ordinal>
+              <family>ALL DATA</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>23</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[ALL DATA_EB3B684ED3824F828A6F4D0C0870262C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Type</remote-alias>
+              <ordinal>7</ordinal>
+              <family>ALL DATA</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[ALL DATA_EB3B684ED3824F828A6F4D0C0870262C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Black-Owned?</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Black-Owned?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Black-Owned?</remote-alias>
+              <ordinal>8</ordinal>
+              <family>ALL DATA</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[ALL DATA_EB3B684ED3824F828A6F4D0C0870262C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Celebrity/Influencer Brand?</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Celebrity/Influencer Brand?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Celebrity/Influencer Brand?</remote-alias>
+              <ordinal>9</ordinal>
+              <family>ALL DATA</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[ALL DATA_EB3B684ED3824F828A6F4D0C0870262C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Clean?</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Clean?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Clean?</remote-alias>
+              <ordinal>10</ordinal>
+              <family>ALL DATA</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[ALL DATA_EB3B684ED3824F828A6F4D0C0870262C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Link</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Link]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Link</remote-alias>
+              <ordinal>11</ordinal>
+              <family>ALL DATA</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>113</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[ALL DATA_EB3B684ED3824F828A6F4D0C0870262C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Photo</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Photo]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Photo</remote-alias>
+              <ordinal>12</ordinal>
+              <family>ALL DATA</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>113</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[ALL DATA_EB3B684ED3824F828A6F4D0C0870262C]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Black-Owned?:nk]' type='palette'>
+            <map to='#9d7660'>
+              <bucket>&quot;Yes&quot;</bucket>
+            </map>
+            <map to='#e9b87f'>
+              <bucket>&quot;No&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='ALL DATA' id='ALL DATA_EB3B684ED3824F828A6F4D0C0870262C'>
+            <properties context=''>
+              <relation connection='excel-direct.0wf0wxg0vdzi6x1gbtf6t0gsbz10' name='ALL DATA' table='[&apos;ALL DATA$&apos;]' type='table'>
+                <columns gridOrigin='A1:N114:no:A1:N114:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Product Name' ordinal='0' />
+                  <column datatype='string' name='Product Type' ordinal='1' />
+                  <column datatype='string' name='Brand' ordinal='2' />
+                  <column datatype='real' name='Price' ordinal='3' />
+                  <column datatype='integer' name='# of Shades in Line' ordinal='4' />
+                  <column datatype='string' name='Darkest Shade Name' ordinal='5' />
+                  <column datatype='string' name='Coverage' ordinal='6' />
+                  <column datatype='string' name='Finish' ordinal='7' />
+                  <column datatype='string' name='Type' ordinal='8' />
+                  <column datatype='string' name='Black-Owned?' ordinal='9' />
+                  <column datatype='string' name='Celebrity/Influencer Brand?' ordinal='10' />
+                  <column datatype='string' name='Clean?' ordinal='11' />
+                  <column datatype='string' name='Link' ordinal='12' />
+                  <column datatype='string' name='Photo' ordinal='13' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_68AA94F135B449D38D86BAB88610791B]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Product Swatches II' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Filter 2 (generated)' name='[Action2_5DEE734AF055449BB61E19C47C461A39]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Product vs. Price' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Average No. of Shades per Beauty Line by Brand'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ALL DATA (Complexion Project Data)' name='federated.04ppm3c1bg1kcf0zojhjn0bek5fk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.04ppm3c1bg1kcf0zojhjn0bek5fk'>
+            <column datatype='integer' name='[# of Shades in Line]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Black-Owned?]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Brand]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Product Name]' role='dimension' type='nominal' />
+            <column-instance column='[# of Shades in Line]' derivation='Avg' name='[avg:# of Shades in Line:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Product Name]' derivation='Count' name='[cnt:Product Name:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Black-Owned?]' derivation='None' name='[none:Black-Owned?:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Brand]' derivation='None' name='[none:Brand:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Brand:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[avg:# of Shades in Line:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Black-Owned?:nk]' />
+              <tooltip column='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[cnt:Product Name:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[avg:# of Shades in Line:qk]</rows>
+        <cols>[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Brand:nk]</cols>
+      </table>
+      <simple-id uuid='{899C031F-2CBC-4B69-9B89-EE0251F3F9E2}' />
+    </worksheet>
+    <worksheet name='Average No. of Shades per Beauty Line by Brand (2)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ALL DATA (Complexion Project Data)' name='federated.04ppm3c1bg1kcf0zojhjn0bek5fk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.04ppm3c1bg1kcf0zojhjn0bek5fk'>
+            <column datatype='integer' name='[# of Shades in Line]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Black-Owned?]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Brand]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Photo]' role='dimension' semantic-role='[URL]' type='nominal' />
+            <column datatype='string' name='[Product Name]' role='dimension' type='nominal' />
+            <column-instance column='[# of Shades in Line]' derivation='Avg' name='[avg:# of Shades in Line:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Product Name]' derivation='Count' name='[cnt:Product Name:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Black-Owned?]' derivation='None' name='[none:Black-Owned?:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Brand]' derivation='None' name='[none:Brand:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[Action (Black-Owned?,Product Name)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2_11BE1803510C46D991A2F84AA9632BD6]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Black-Owned?]' />
+              <groupfilter function='level-members' level='[Product Name]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[Action (Photo)]'>
+            <groupfilter function='level-members' level='[Photo]' user:ui-action-filter='[Action1_68AA94F135B449D38D86BAB88610791B]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[Action (Black-Owned?,Product Name)]</column>
+            <column>[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[Action (Photo)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[avg:# of Shades in Line:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Brand:nk]' />
+              <lod column='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[cnt:Product Name:qk]' />
+            </encodings>
+            <reference-line axis-column='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[avg:# of Shades in Line:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[avg:# of Shades in Line:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[avg:# of Shades in Line:qk]</rows>
+        <cols>[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Black-Owned?:nk]</cols>
+      </table>
+      <simple-id uuid='{1AE3F1E3-AB74-49BC-8407-A6A04E27758F}' />
+    </worksheet>
+    <worksheet name='Average Price of Black-Owned Brands&apos; Products'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ALL DATA (Complexion Project Data)' name='federated.04ppm3c1bg1kcf0zojhjn0bek5fk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.04ppm3c1bg1kcf0zojhjn0bek5fk'>
+            <column datatype='string' name='[Black-Owned?]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Brand]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Price]' role='measure' type='quantitative' />
+            <column-instance column='[Price]' derivation='Avg' name='[avg:Price:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Black-Owned?]' derivation='None' name='[none:Black-Owned?:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Brand]' derivation='None' name='[none:Brand:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Black-Owned?:nk]'>
+            <groupfilter function='member' level='[none:Black-Owned?:nk]' member='&quot;Yes&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Brand:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[avg:Price:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Black-Owned?:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[avg:Price:qk]' scope='rows' value='Avg. Price (in USD)' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'>Brand:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Brand:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Avg. Price:&#9;</run>
+                <run fontcolor='#000000'>$</run>
+                <run bold='true'><![CDATA[<[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[avg:Price:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#76b7b2' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[avg:Price:qk]</rows>
+        <cols>[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Brand:nk]</cols>
+      </table>
+      <simple-id uuid='{D76AAAC0-EFC6-47E0-A104-55DAE10A0F53}' />
+    </worksheet>
+    <worksheet name='Product Swatches I'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ALL DATA (Complexion Project Data)' name='federated.04ppm3c1bg1kcf0zojhjn0bek5fk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.04ppm3c1bg1kcf0zojhjn0bek5fk'>
+            <column datatype='string' name='[Brand]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Photo]' role='dimension' semantic-role='[URL]' type='nominal' />
+            <column datatype='real' name='[Price]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Product Name]' role='dimension' type='nominal' />
+            <column-instance column='[Brand]' derivation='None' name='[none:Brand:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Photo]' derivation='None' name='[none:Photo:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Product Name]' derivation='None' name='[none:Product Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Price]' derivation='Sum' name='[sum:Price:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Brand:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;about-face&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;Ami Colé&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;Anastasia Beverly Hills&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;Armani Beauty&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;bareMinerals&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;Beautyblender&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;Benefit Cosmetics&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;BLK/OPL&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;Bobbi Brown&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;CHANEL&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;Charlotte Tilbury&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;ciele&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;Clinique&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;Danessa Myricks Beauty&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;DIOR&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;Essence&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;Estée Lauder&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;Fenty Beauty by Rihanna&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;Givenchy&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;HAUS LABS BY LADY GAGA&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;HOURGLASS&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;HUDA BEAUTY&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;ILIA&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;IT Cosmetics&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;Juvia&apos;s Place&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;Kosas&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;KVD Beauty&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;KYLIE COSMETICS&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;L&apos;Oréal&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;Lancôme&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;Laura Mercier&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;LAWLESS&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;Live Tinted&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;LYS Beauty&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;MAC&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;MAKE UP FOR EVER&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;MAKEUP BY MARIO&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;Maybelline&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;MERIT&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;Milani&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;MILK MAKEUP&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;Morphe&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;Naked Sundays&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;NARS&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;NATASHA DENONA&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;NYX Professional Makeup&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;ONE/SIZE by Patrick Starrr&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;PAT McGRATH LABS&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;PATRICK TA&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;Polite Society&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;Prada Beauty&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;PÜR&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;r.e.m. beauty&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;Range Beauty&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;Rare Beauty by Selena Gomez&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;Saie&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;SEPHORA COLLECTION&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;Smashbox&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;Summer Fridays&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;Tarte&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;TIRTIR&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;Too Faced&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;Tower 28 Beauty&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;ULTA Beauty Collection&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;UOMA Beauty&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;Urban Decay&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;Wyn Beauty&quot;' />
+              <groupfilter function='member' level='[none:Brand:nk]' member='&quot;Yves Saint Laurent&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Brand:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <text column='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[sum:Price:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Product Name:nk] / ([federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Photo:nk] / [federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Brand:nk]))</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{64C9AAA3-1619-425F-BC0B-72BA7FDA7089}' />
+    </worksheet>
+    <worksheet name='Product Swatches II'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ALL DATA (Complexion Project Data)' name='federated.04ppm3c1bg1kcf0zojhjn0bek5fk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.04ppm3c1bg1kcf0zojhjn0bek5fk'>
+            <column datatype='string' name='[Black-Owned?]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Brand]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Darkest Shade Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Photo]' role='dimension' semantic-role='[URL]' type='nominal' />
+            <column datatype='real' name='[Price]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Product Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Type]' role='dimension' type='nominal' />
+            <column-instance column='[Brand]' derivation='Attribute' name='[attr:Brand:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Darkest Shade Name]' derivation='Attribute' name='[attr:Darkest Shade Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Product Name]' derivation='Attribute' name='[attr:Product Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Type]' derivation='Attribute' name='[attr:Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Brand]' derivation='None' name='[none:Brand:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Photo]' derivation='None' name='[none:Photo:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Price]' derivation='Sum' name='[sum:Price:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[Action (Black-Owned?,Product Name)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2_11BE1803510C46D991A2F84AA9632BD6]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Black-Owned?]' />
+              <groupfilter function='level-members' level='[Product Name]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Brand:nk]'>
+            <groupfilter function='level-members' level='[none:Brand:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Brand:nk]</column>
+            <column>[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[Action (Black-Owned?,Product Name)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <_.fcp.VizExtensions.false...mark class='Automatic' />
+            <_.fcp.VizExtensions.true...mark class='VizExtension' />
+            <_.fcp.VizExtensions.true...add-in add-in-id='com.infotopics.appsfortableau-extensions.picture-this' extension-url='https://extensions-appsfortableau.infotopics.com/picture-this-free/' extension-version='4.0.4' instance-id='4EE62F5043D9430685B87DF1A01014EF'>
+              <instance-settings>
+                <setting key='additionalExportColumns' value='[]' />
+                <setting key='aggregateCardOrientation' value='vertical' />
+                <setting key='aggregateColumn' value='null' />
+                <setting key='aggregateImageHeight' value='150' />
+                <setting key='aggregateVariant' value='table' />
+                <setting key='aggregateView' value='false' />
+                <setting key='backgroundColor' value='#FFFFFF' />
+                <setting key='bandingColor' value='#f5f5f5' />
+                <setting key='borderColor' value='#ffffff' />
+                <setting key='borderRadius' value='10px' />
+                <setting key='cardColor' value='#FFFFFF' />
+                <setting key='cardColumns' value='33%' />
+                <setting key='cardContentHorizontal' value='true' />
+                <setting key='cardJustifyContent' value='center' />
+                <setting key='cardMargin' value='15px' />
+                <setting key='cardOrientation' value='vertical' />
+                <setting key='cardPadding' value='10px' />
+                <setting key='conditionalCardColorEnabled' value='false' />
+                <setting key='conditionalColumn' value='{&quot;name&quot;:&quot;&quot;,&quot;dataType&quot;:&quot;&quot;,&quot;index&quot;:null}' />
+                <setting key='conditionalDimensionMembers' value='[]' />
+                <setting key='customCardContent' value='' />
+                <setting key='datasheet' value='Sheet 5' />
+                <setting key='displayColumns' value='[]' />
+                <setting key='dotIndicators' value='false' />
+                <setting key='enableCropAggregateImage' value='false' />
+                <setting key='enableCropImage' value='true' />
+                <setting key='enableCustomCardContent' value='false' />
+                <setting key='enableGoogleFonts' value='false' />
+                <setting key='enablePagination' value='false' />
+                <setting key='enableRowBanding' value='false' />
+                <setting key='enableTableauFonts' value='false' />
+                <setting key='fontFamily' value='Arial' />
+                <setting key='fontSize' value='9pt' />
+                <setting key='freezeHeadersExport' value='false' />
+                <setting key='getfontFamily' value='&quot;&quot;' />
+                <setting key='headerAlign' value='center' />
+                <setting key='highlightFirstItem' value='false' />
+                <setting key='imageHeight' value='75' />
+                <setting key='imagePadding' value='3px' />
+                <setting key='lockImage' value='false' />
+                <setting key='multiPageExport' value='false' />
+                <setting key='multiPageExportColumn' value='' />
+                <setting key='nrItemsPerPage' value='30' />
+                <setting key='nrItemsPerPageVueTable' value='30' />
+                <setting key='nrPageIndicators' value='6' />
+                <setting key='pageCountIndicator' value='true' />
+                <setting key='showAdditionalExportColumns' value='false' />
+                <setting key='showCardShadow' value='true' />
+                <setting key='showCollapseButton' value='false' />
+                <setting key='showExportButton' value='false' />
+                <setting key='showHeaders' value='false' />
+                <setting key='showPrintButton' value='false' />
+                <setting key='showSortButton' value='false' />
+                <setting key='showSummaryCard' value='true' />
+                <setting key='showTooltip' value='false' />
+                <setting key='stickyHeader' value='false' />
+                <setting key='summaryCard' value='' />
+                <setting key='tableHeaderFontColor' value='#666666' />
+                <setting key='tableHeaderFontSize' value='9pt' />
+                <setting key='textAlign' value='text-center' />
+                <setting key='textColor' value='#666666' />
+                <setting key='tooltip' value='' />
+                <setting key='urlColumn' value='{&quot;value&quot;:&quot;Photo&quot;,&quot;alias&quot;:&quot;Photo&quot;}' />
+              </instance-settings>
+              <type-settings>
+                <worksheet />
+              </type-settings>
+            </_.fcp.VizExtensions.true...add-in>
+            <encodings>
+              <_.fcp.VizExtensions.false...lod _.fcp.VizExtensionsDupEncodingUUID.true...encoding-id='{238EC350-5B2A-433D-BFB4-0A5366876D59}' column='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Photo:nk]' />
+              <_.fcp.VizExtensions.true...custom _.fcp.VizExtensionsDupEncodingUUID.true...encoding-id='{238EC350-5B2A-433D-BFB4-0A5366876D59}' column='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Photo:nk]' custom-type-name='imageURL' />
+              <tooltip _.fcp.VizExtensionsDupEncodingUUID.true...encoding-id='{EF7D56D5-A94B-46C5-AFA3-99C110ADFCA3}' column='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[attr:Darkest Shade Name:nk]' />
+              <tooltip _.fcp.VizExtensionsDupEncodingUUID.true...encoding-id='{52E3B1B4-B810-43F6-ABB4-E2A978D45FA6}' column='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[attr:Product Name:nk]' />
+              <tooltip _.fcp.VizExtensionsDupEncodingUUID.true...encoding-id='{E57A2116-D92E-42C9-99E7-05071CF8E3F9}' column='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[attr:Brand:nk]' />
+              <tooltip _.fcp.VizExtensionsDupEncodingUUID.true...encoding-id='{7A955388-AC42-4288-98DB-5A14C97380D0}' column='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[sum:Price:qk]' />
+              <tooltip _.fcp.VizExtensionsDupEncodingUUID.true...encoding-id='{4EC83387-E3F8-401C-A7C0-FA8B2515DA55}' column='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[attr:Type:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'>Product Name:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[attr:Product Name:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Darkest Shade Name:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[attr:Darkest Shade Name:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Brand:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[attr:Brand:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Type:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[attr:Type:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Price:&#9;</run>
+                <run fontcolor='#000000'>$</run>
+                <run bold='true' fontcolor='#000000'><![CDATA[<[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[sum:Price:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{CBA865A7-2FC1-4DA1-BF93-C819CE3DCAF6}' />
+    </worksheet>
+    <worksheet name='Product vs. Price'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ALL DATA (Complexion Project Data)' name='federated.04ppm3c1bg1kcf0zojhjn0bek5fk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.04ppm3c1bg1kcf0zojhjn0bek5fk'>
+            <column datatype='string' name='[Black-Owned?]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Brand]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Photo]' role='dimension' semantic-role='[URL]' type='nominal' />
+            <column datatype='real' name='[Price]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Product Name]' role='dimension' type='nominal' />
+            <column-instance column='[Black-Owned?]' derivation='None' name='[none:Black-Owned?:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Brand]' derivation='None' name='[none:Brand:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Price]' derivation='None' name='[none:Price:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Product Name]' derivation='None' name='[none:Product Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Price]' derivation='Sum' name='[sum:Price:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[Action (Photo)]'>
+            <groupfilter function='level-members' level='[Photo]' user:ui-action-filter='[Action1_68AA94F135B449D38D86BAB88610791B]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Black-Owned?:nk]'>
+            <groupfilter function='level-members' level='[none:Black-Owned?:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Brand:nk]'>
+            <groupfilter function='level-members' level='[none:Brand:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Price:qk]' included-values='in-range'>
+            <min>6.9900000000000002</min>
+            <max>39.5</max>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Product Name:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[sum:Price:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Black-Owned?:nk]</column>
+            <column>[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Price:qk]</column>
+            <column>[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Brand:nk]</column>
+            <column>[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[Action (Photo)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='height-header' value='17' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Black-Owned?:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[sum:Price:qk]</rows>
+        <cols>[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Product Name:nk]</cols>
+      </table>
+      <simple-id uuid='{2C8492FC-50AC-4136-808C-4AFD02AB08B0}' />
+    </worksheet>
+    <worksheet name='Product vs. Price (2)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ALL DATA (Complexion Project Data)' name='federated.04ppm3c1bg1kcf0zojhjn0bek5fk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.04ppm3c1bg1kcf0zojhjn0bek5fk'>
+            <column datatype='string' name='[Black-Owned?]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Price]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Product Name]' role='dimension' type='nominal' />
+            <column-instance column='[Black-Owned?]' derivation='None' name='[none:Black-Owned?:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Product Name]' derivation='None' name='[none:Product Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Price]' derivation='Sum' name='[sum:Price:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Black-Owned?:nk]'>
+            <groupfilter function='level-members' level='[none:Black-Owned?:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Black-Owned?:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[sum:Price:qk]' scope='rows' value='Price (in USD)' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Product Name:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[sum:Price:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[sum:Price:qk]' z-order='1' />
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'>Black-Owned?:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Black-Owned?:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Product Name:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Product Name:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Price:&#9;</run>
+                <run fontcolor='#000000'>$</run>
+                <run bold='true'><![CDATA[<[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[sum:Price:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[sum:Price:qk]</rows>
+        <cols>[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Black-Owned?:nk]</cols>
+      </table>
+      <simple-id uuid='{7A28CD0D-5024-4FE4-B909-2C2E990A1488}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' sizing-mode='range' />
+      <datasources>
+        <datasource caption='ALL DATA (Complexion Project Data)' name='federated.04ppm3c1bg1kcf0zojhjn0bek5fk' />
+      </datasources>
+      <datasource-dependencies datasource='federated.04ppm3c1bg1kcf0zojhjn0bek5fk'>
+        <column datatype='string' name='[Black-Owned?]' role='dimension' type='nominal' />
+        <column datatype='string' name='[Brand]' role='dimension' type='nominal' />
+        <column datatype='real' name='[Price]' role='measure' type='quantitative' />
+        <column-instance column='[Black-Owned?]' derivation='None' name='[none:Black-Owned?:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Brand]' derivation='None' name='[none:Brand:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Price]' derivation='None' name='[none:Price:qk]' pivot='key' type='quantitative' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98134' id='7' param='horz' type-v2='layout-flow' w='97538' x='1231' y='933'>
+            <zone h='98134' id='5' type-v2='layout-basic' w='72923' x='1231' y='933'>
+              <zone h='49067' id='3' name='Product Swatches II' w='36461' x='1231' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49067' id='13' name='Average No. of Shades per Beauty Line by Brand (2)' w='36462' x='37692' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49067' id='22' name='Product vs. Price' w='72923' x='1231' y='933'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98134' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='24615' x='74154' y='933'>
+              <zone h='6067' id='8' mode='checkdropdown' name='Product Swatches II' param='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Brand:nk]' type-v2='filter' w='24615' x='74154' y='933'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='6067' id='23' mode='checkdropdown' name='Product vs. Price' param='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Brand:nk]' type-v2='filter' w='24615' x='74154' y='7000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='8051' id='24' name='Product vs. Price' param='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Price:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='24615' x='74154' y='13067'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='10385' id='25' name='Product vs. Price' param='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Black-Owned?:nk]' type-v2='filter' w='24615' x='74154' y='21118'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='7701' id='26' name='Product vs. Price' pane-specification-id='0' param='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Black-Owned?:nk]' type-v2='color' w='24615' x='74154' y='31503'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1200' minheight='1200' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='30' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97568' id='29' param='vert' type-v2='layout-flow' w='97538' x='1231' y='1216'>
+                <zone h='7903' id='23' mode='checkdropdown' name='Product vs. Price' param='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Brand:nk]' type-v2='filter' w='24615' x='74154' y='9119'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10487' id='24' name='Product vs. Price' param='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Price:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='24615' x='74154' y='17022'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='13526' id='25' mode='checkdropdown' name='Product vs. Price' param='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Black-Owned?:nk]' type-v2='filter' w='24615' x='74154' y='27509'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='48784' id='22' is-fixed='true' name='Product vs. Price' w='72923' x='1231' y='1216'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10031' id='26' name='Product vs. Price' pane-specification-id='0' param='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Black-Owned?:nk]' type-v2='color' w='24615' x='74154' y='41035'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7903' id='8' mode='checkdropdown' name='Product Swatches II' param='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Brand:nk]' type-v2='filter' w='24615' x='74154' y='1216'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='48784' id='3' is-fixed='true' name='Product Swatches II' w='36461' x='1231' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='48784' id='13' is-fixed='true' name='Average No. of Shades per Beauty Line by Brand (2)' w='36462' x='37692' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{179928F4-9A66-4029-897D-D33F05FF2699}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Product vs. Price'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='checkdropdown' param='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Brand:nk]' type='filter' />
+            <card param='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Price:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Black-Owned?:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Black-Owned?:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{985C3347-30CE-444F-ACF7-133A79C73EA6}' />
+    </window>
+    <window class='worksheet' name='Product vs. Price (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Black-Owned?:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7E262747-5088-49D4-829C-781EA98C36D5}' />
+    </window>
+    <window class='worksheet' name='Average No. of Shades per Beauty Line by Brand'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Black-Owned?:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{85B2474C-7CE7-4D6E-8E4E-952F2E5FD44E}' />
+    </window>
+    <window class='worksheet' name='Average No. of Shades per Beauty Line by Brand (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BD9C8BB2-5F13-4F5A-8840-0FBA2F7DD4BB}' />
+    </window>
+    <window class='worksheet' name='Product Swatches I'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='checkdropdown' param='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Brand:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{337E1BE4-5C6D-4B0E-A1F4-5A1C4E1569B0}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Product Swatches II'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='checkdropdown' param='[federated.04ppm3c1bg1kcf0zojhjn0bek5fk].[none:Brand:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{48DD4BD4-2A3E-4FEE-8BB0-AFA89B3C8A7B}' />
+    </window>
+    <window class='worksheet' name='Average Price of Black-Owned Brands&apos; Products'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5B6DC29C-100E-4C43-AFE4-96043238188B}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Average No. of Shades per Beauty Line by Brand (2)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Product Swatches II' />
+        <viewpoint name='Product vs. Price'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='3' />
+      <device-preview selected='Desktop' />
+      <simple-id uuid='{9D3295DC-B9A6-492F-ACFB-061635B73650}' />
+    </window>
+  </windows>
+  <_.fcp.VizExtensions.true...referenced-extensions>
+    <_.fcp.VizExtensions.true...referenced-extension>
+      <manifest manifest-version='0.1'>
+        <worksheet-extension extension-version='4.0.4' id='com.infotopics.appsfortableau-extensions.picture-this'>
+          <default-locale>en_US</default-locale>
+          <name resource-id='name' />
+          <description>Infotopics | Apps for tableau extension server, to host the extensions on your
+      server.</description>
+          <author email='support@appsfortableau.infotopics.com' name='Infotopics | Apps for Tableau' organization='Infotopics | Apps for Tableau' website='https://appsfortableau.infotopics.com' />
+          <min-api-version>1.11</min-api-version>
+          <source-location>
+            <url>https://extensions-appsfortableau.infotopics.com/picture-this-free/</url>
+          </source-location>
+          <icon>iVBORw0KGgoAAAANSUhEUgAAAEsAAABLCAYAAAA4TnrqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAGymlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDUgNzkuMTYzNDk5LCAyMDE4LzA4LzEzLTE2OjQwOjIyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOSAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDE5LTAyLTA1VDA4OjE0OjQzLTA4OjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAxOS0wMi0wNlQxNDo1MjoxOC0wODowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAxOS0wMi0wNlQxNDo1MjoxOC0wODowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDplNTY0N2ZiNy01YzVhLTEwNDctOTQ3Zi0xMDM4NWUyNmFiYzgiIHhtcE1NOkRvY3VtZW50SUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDoxNWU2ODg3ZS1lYjlkLTI2NDctYTY3ZC0wMGU1NmRkYTQ4ODMiIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDplZjQwMWQzOC01ZDU5LTRiNDYtYTE5OC1jMzBiYjYzODUwMWMiPiA8eG1wTU06SGlzdG9yeT4gPHJkZjpTZXE+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjcmVhdGVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmVmNDAxZDM4LTVkNTktNGI0Ni1hMTk4LWMzMGJiNjM4NTAxYyIgc3RFdnQ6d2hlbj0iMjAxOS0wMi0wNVQwODoxNDo0My0wODowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKFdpbmRvd3MpIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDpkYWNkNzU1My03ZjdkLTg2NDgtOGUwYi03NmQ1NzNjZTMxOTUiIHN0RXZ0OndoZW49IjIwMTktMDItMDVUMDg6MzY6MzktMDg6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE5IChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0ic2F2ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6ZTU2NDdmYjctNWM1YS0xMDQ3LTk0N2YtMTAzODVlMjZhYmM4IiBzdEV2dDp3aGVuPSIyMDE5LTAyLTA2VDE0OjUyOjE4LTA4OjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOSAoV2luZG93cykiIHN0RXZ0OmNoYW5nZWQ9Ii8iLz4gPC9yZGY6U2VxPiA8L3htcE1NOkhpc3Rvcnk+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+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</icon>
+          <context-menu>
+            <configure-context-menu-item />
+          </context-menu>
+          <encoding id='imageURL'>
+            <display-name>Image</display-name>
+            <data-spec>
+              <data-type>string</data-type>
+            </data-spec>
+            <role-spec>
+              <role-type>discrete-dimension</role-type>
+            </role-spec>
+            <fields max-count='1' />
+            <encoding-icon token='image' />
+            <tooltip resource-id='tooltip-x-id'>Image to be displayed</tooltip>
+          </encoding>
+          <encoding id='displayColumns'>
+            <display-name>Data</display-name>
+            <encoding-icon token='text' />
+            <tooltip resource-id='tooltip-x-id'>Additional columns to be displayed along with the image</tooltip>
+          </encoding>
+        </worksheet-extension>
+        <resources>
+          <resource id='name'>
+            <text locale='en_US'>PictureThis Free</text>
+          </resource>
+        </resources>
+      </manifest>
+      <referenced-views>
+        <referenced-view instances='1' viewId='Product Swatches II' />
+      </referenced-views>
+    </_.fcp.VizExtensions.true...referenced-extension>
+  </_.fcp.VizExtensions.true...referenced-extensions>
+</workbook>
